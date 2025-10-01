@@ -40,3 +40,25 @@ npm run lint
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
+
+## VSCode Setup
+
+This project includes VSCode configuration for an optimal development experience:
+
+- **GitHub Copilot**: The repository is configured with GitHub Copilot settings and instructions in `.github/copilot-instructions.md`
+- **Recommended Extensions**: When you open the project in VSCode, you'll be prompted to install recommended extensions including:
+  - GitHub Copilot & Copilot Chat
+  - ESLint
+  - Stylelint
+  - EditorConfig
+- **Workspace Settings**: Pre-configured settings in `.vscode/settings.json` for consistent code formatting and linting
+
+### Enabling GitHub Copilot
+
+If you have GitHub Copilot Pro but the agent is not working:
+
+1. Ensure you have the latest versions of the GitHub Copilot extensions installed
+2. Reload VSCode after opening this project to apply workspace settings
+3. Check that Copilot is enabled in your VSCode settings (Settings > Extensions > GitHub Copilot)
+4. Sign in to GitHub Copilot through VSCode if prompted
+5. The `.github/copilot-instructions.md` file provides project-specific context to Copilot
