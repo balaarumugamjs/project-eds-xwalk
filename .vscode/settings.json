@@ -1,0 +1,25 @@
+{
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": true
+  },
+  "github.copilot.advanced": {},
+  "files.associations": {
+    "*.js": "javascript",
+    "*.mjs": "javascript",
+    "*.json": "json"
+  },
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "json"
+  ],
+  "css.validate": false,
+  "stylelint.validate": [
+    "css"
+  ]
+}
